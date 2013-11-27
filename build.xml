@@ -15,11 +15,11 @@
  limitations under the License.
 -->
 
-<project name="mcf-sharepoint-2010-plugin" default="help">
+<project name="mcf-sharepoint-2013-plugin" default="help">
 
     <target name="clean">
         <delete>
-	<fileset dir="." includes="apache-manifoldcf-sharepoint-2010-plugin-*"/>
+	<fileset dir="." includes="apache-manifoldcf-sharepoint-2013-plugin-*"/>
         </delete>
         <delete file="webservice/Package/*.wsp"/>
         <delete file="webservice/setup.inf"/>
@@ -53,12 +53,12 @@
     <target name="build" depends="deliver"/>
     
     <target name="set-version">
-        <property name="release-version" value="0.5-dev"/>
+        <property name="release-version" value="0.1-dev"/>
     </target>
       
     <target name="create-source-zip" depends="set-version">
-      <zip destfile="apache-manifoldcf-sharepoint-2010-plugin-${release-version}-src.zip" update="false">
-        <zipfileset dir="." prefix="apache-manifoldcf-sharepoint-2010-plugin-${release-version}">
+      <zip destfile="apache-manifoldcf-sharepoint-2013-plugin-${release-version}-src.zip" update="false">
+        <zipfileset dir="." prefix="apache-manifoldcf-sharepoint-2013-plugin-${release-version}">
           <exclude name="/wsdls/Permissions.wsdl"/>
           <exclude name="/webservice/Web References/SPPermissionsService/Permissions.wsdl"/>
           <exclude name="/webservice/Package/*.wsp"/>
@@ -67,14 +67,14 @@
           <exclude name="/webservice/setup.rpt"/>
           <exclude name="/webservice/obj/"/>
           <exclude name="/dist/"/>
-          <exclude name="/apache-manifoldcf-sharepoint-2010-plugin-*"/>
+          <exclude name="/apache-manifoldcf-sharepoint-2013-plugin-*"/>
         </zipfileset>
       </zip>
     </target>
       
     <target name="create-source-tar" depends="set-version">
-      <tar destfile="apache-manifoldcf-sharepoint-2010-plugin-${release-version}-src.tar.gz" compression="gzip" longfile="gnu">
-        <tarfileset dir="." prefix="apache-manifoldcf-sharepoint-2010-plugin-${release-version}">
+      <tar destfile="apache-manifoldcf-sharepoint-2013-plugin-${release-version}-src.tar.gz" compression="gzip" longfile="gnu">
+        <tarfileset dir="." prefix="apache-manifoldcf-sharepoint-2013-plugin-${release-version}">
           <exclude name="/wsdls/Permissions.wsdl"/>
           <exclude name="/webservice/Web References/SPPermissionsService/Permissions.wsdl"/>
           <exclude name="/webservice/Package/*.wsp"/>
@@ -83,21 +83,21 @@
           <exclude name="/webservice/setup.rpt"/>
           <exclude name="/webservice/obj/"/>
           <exclude name="/dist/"/>
-          <exclude name="/apache-manifoldcf-sharepoint-2010-plugin-*"/>
+          <exclude name="/apache-manifoldcf-sharepoint-2013-plugin-*"/>
         </tarfileset>
       </tar>
     </target>
 
     <target name="create-bin-zip" depends="build,set-version">
-      <zip destfile="apache-manifoldcf-sharepoint-2010-plugin-${release-version}-bin.zip" update="false">
-        <zipfileset dir="dist" prefix="apache-manifoldcf-sharepoint-2010-plugin-${release-version}">
+      <zip destfile="apache-manifoldcf-sharepoint-2013-plugin-${release-version}-bin.zip" update="false">
+        <zipfileset dir="dist" prefix="apache-manifoldcf-sharepoint-2013-plugin-${release-version}">
         </zipfileset>
       </zip>
     </target>
       
     <target name="create-bin-tar" depends="build,set-version">
-      <tar destfile="apache-manifoldcf-sharepoint-2010-plugin-${release-version}-bin.tar.gz" compression="gzip" longfile="gnu">
-        <tarfileset dir="dist" prefix="apache-manifoldcf-sharepoint-2010-plugin-${release-version}">
+      <tar destfile="apache-manifoldcf-sharepoint-2013-plugin-${release-version}-bin.tar.gz" compression="gzip" longfile="gnu">
+        <tarfileset dir="dist" prefix="apache-manifoldcf-sharepoint-2013-plugin-${release-version}">
         </tarfileset>
       </tar>
     </target>
@@ -106,7 +106,7 @@
 
     <target name="help">
         <echo level="info">
-Apache ManifoldCF SharePoint 2010 Plugin build file.  Use this
+Apache ManifoldCF SharePoint 2013 Plugin build file.  Use this
 file to build the plugin distributables.
 
 Useful targets are:

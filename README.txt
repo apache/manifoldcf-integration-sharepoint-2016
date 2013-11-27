@@ -14,14 +14,14 @@
 # limitations under the License.
 
 
-Instructions for Building Apache ManifoldCF Plugin for SharePoint 2010 from Source
+Instructions for Building Apache ManifoldCF Plugin for SharePoint 2013 from Source
 -------------------------------------------------------------------------------
 
 This source MUST be built on a Windows system.
 
 1. Make sure you have .NET Framework 1.0 and .NET Framework 3.0 installed.
 
-2. Place the Microsoft SharePoint 2010 dll in the right place, you can take this file from C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\UserCode\assemblies.  There are several places
+2. Place the Microsoft SharePoint 2013 dll in the right place, you can take this file from C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\UserCode\assemblies.  There are several places
    that will work.  The preferred place is:
    
    C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.SharePoint.dll
@@ -40,16 +40,16 @@ This source MUST be built on a Windows system.
    build.xml file), and type "ant" for directions.
 
 
-Some Files Included In Apache ManifoldCF Plugin for SharePoint 2010 Distributions
+Some Files Included In Apache ManifoldCF Plugin for SharePoint 2013 Distributions
 ------------------------------------------------------------------------------
 
 dist/MetaCarta.SharePoint.MCPermissionsService.wsp
-  The Apache ManifoldCF Plugin for SharePoint 2010 assembly.
+  The Apache ManifoldCF Plugin for SharePoint 2013 assembly.
 
 Licensing
 ---------
 
-Apache ManifoldCF SharePoint 2010 Plugin is licensed under the
+Apache ManifoldCF SharePoint 2013 Plugin is licensed under the
 Apache License 2.0. See the files called LICENSE.txt and NOTICE.txt
 for more information.
 
@@ -78,7 +78,7 @@ code and source code.
 The following provides more details on the included software that
 may be subject to export controls on cryptographic software:
 
-  The Apache ManifoldCF Plugin for SharePoint 2010 
+  The Apache ManifoldCF Plugin for SharePoint 2013 
   does not include any implementation or usage of cryptographic software
   at this time.
   
