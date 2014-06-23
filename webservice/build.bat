@@ -27,7 +27,7 @@ del bin\*.dll
 del Packages\*.wsp
 
 REM Build the dll
-c:\windows\Microsoft.NET\Framework\v2.0.50727\MSBuild.exe MCPermissionsService.csproj
+c:\windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe MCPermissionsService.csproj
 REM Build the wsp
 c:\windows\system32\makecab.exe /f MCPermissionsService.ddf
 
