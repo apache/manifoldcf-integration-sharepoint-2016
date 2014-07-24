@@ -1,7 +1,7 @@
 Apache ManifoldCF Plugin for SharePoint 2013 requires
 ----------------------------------------------------
 * JRE 1.5 or above
-* .NET Framework 1.0 and .NET Framework 3.0
+* .NET Framework 1.0, .NET Framework 3.0, and .NET Framework 4.5
 * Microsoft.SharePoint.dll for SharePoint version 5.0 (2013)
 
 For building Apache ManifoldCF SharePoint 2013 Plugin:
