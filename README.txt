@@ -19,10 +19,11 @@ Instructions for Building Apache ManifoldCF Plugin for SharePoint 2013 from Sour
 
 This source MUST be built on a Windows system.
 
-1. Make sure you have .NET Framework 1.0 and .NET Framework 3.0 installed.
+1. Make sure you have .NET Framework 1.0, .NET Framework 3.0, and .NET Framework 4.5 installed.
 
-2. Place the Microsoft SharePoint 2013 dll in the right place, you can take this file from C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\UserCode\assemblies.  There are several places
-   that will work.  The preferred place is:
+2. Place the Microsoft SharePoint 2013 dll in the right place.  You can take this file
+   from C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\UserCode\assemblies.
+   There are several places that will work.  The preferred place is:
    
    C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.SharePoint.dll
    
