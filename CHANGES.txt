@@ -1,9 +1,7 @@
-Apache ManifoldCF Plugin for SharePoint 2013 change Log
+Apache ManifoldCF Plugin for SharePoint 2016 change Log
 $Id$
 
-======================= 0.2-dev =====================
-
-======================= 0.1 =====================
+======================= 0.1-dev =====================
 
 Initial commit.
 (Karl Wright)

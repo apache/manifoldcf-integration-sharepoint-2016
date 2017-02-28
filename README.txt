@@ -14,23 +14,23 @@
 # limitations under the License.
 
 
-Instructions for Building Apache ManifoldCF Plugin for SharePoint 2013 from Source
+Instructions for Building Apache ManifoldCF Plugin for SharePoint 2016 from Source
 -------------------------------------------------------------------------------
 
 This source MUST be built on a Windows system.
 
 1. Make sure you have .NET Framework 1.0, .NET Framework 3.0, and .NET Framework 4.5 installed.
 
-2. Place the Microsoft SharePoint 2013 dll in the right place.  You can take this file
+2. Place the Microsoft SharePoint 2016 dll in the right place.  You can take this file
    from C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\UserCode\assemblies.
    There are several places that will work.  The preferred place is:
    
    C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.SharePoint.dll
    
-3. Download the Java SE 5 JDK (Java Development Kit), or greater, from http://www.oracle.com/technetwork/java/index.html.
+3. Download the Java SE 7 JDK (Java Development Kit), or greater, from http://www.oracle.com/technetwork/java/index.html.
    You will need the JDK installed, and the %JAVA_HOME%\bin directory included
    on your command path.  To test this, issue a "java -version" command from your
-   shell and verify that the Java version is 1.5 or greater.
+   shell and verify that the Java version is 1.7 or greater.
 
 4. Download the Apache Ant binary distribution (1.7.0 or greater) from http://ant.apache.org.
    You will need Ant installed and the %ANT_HOME%\bin directory included on your
@@ -41,16 +41,16 @@ This source MUST be built on a Windows system.
    build.xml file), and type "ant" for directions.
 
 
-Some Files Included In Apache ManifoldCF Plugin for SharePoint 2013 Distributions
+Some Files Included In Apache ManifoldCF Plugin for SharePoint 2016 Distributions
 ------------------------------------------------------------------------------
 
 dist/MetaCarta.SharePoint.MCPermissionsService.wsp
-  The Apache ManifoldCF Plugin for SharePoint 2013 assembly.
+  The Apache ManifoldCF Plugin for SharePoint 2016 assembly.
 
 Licensing
 ---------
 
-Apache ManifoldCF SharePoint 2013 Plugin is licensed under the
+Apache ManifoldCF SharePoint 2016 Plugin is licensed under the
 Apache License 2.0. See the files called LICENSE.txt and NOTICE.txt
 for more information.
 
@@ -79,7 +79,7 @@ code and source code.
 The following provides more details on the included software that
 may be subject to export controls on cryptographic software:
 
-  The Apache ManifoldCF Plugin for SharePoint 2013 
+  The Apache ManifoldCF Plugin for SharePoint 2016 
   does not include any implementation or usage of cryptographic software
   at this time.
   

@@ -14,13 +14,14 @@
 # limitations under the License.
 
 
-Instructions for running Apache ManifoldCF Plugin for SharePoint 2013
+Instructions for running Apache ManifoldCF Plugin for SharePoint 2016
 ------------------------------------------------------------------
 
 This web service is deployed using the SharePoint stsadm utility.  There are several included batch files: setup.bat (for first-time installation),
 and upgrade.bat (for subsequent installations).  There is also a remove.bat, in case there is a need to uninstall the web service.
 
-Note: This web service is only functional on SharePoint 5.0 (2013) systems.  Do not install on SharePoint 2.0 (2003), 3.0 (2007), or 4.0 (2010) systems.
+Note: This web service is only functional on SharePoint 6.0 (2016) systems.  Do not install on SharePoint 2.0 (2003), 3.0 (2007), 4.0 (2010),
+or 5.0 (2013) systems.
 
 
 First-time installation
@@ -55,16 +56,16 @@ Remove an installation
    modify the remove.bat file first for it to be able to locate stsadm.exe.
 
 
-Some files included in Apache ManifoldCF Plugin for SharePoint 2013 distributions
+Some files included in Apache ManifoldCF Plugin for SharePoint 2016 distributions
 -----------------------------------------------------------------------------
 
 dist/MetaCarta.SharePoint.MCPermissionsService.wsp
-  The Apache ManifoldCF Plugin for SharePoint 2013 assembly.
+  The Apache ManifoldCF Plugin for SharePoint 2016 assembly.
 
 Licensing
 ---------
 
-Apache ManifoldCF Plugin for SharePoint 2013 is licensed under the
+Apache ManifoldCF Plugin for SharePoint 2016 is licensed under the
 Apache License 2.0. See the files called LICENSE.txt and NOTICE.txt
 for more information.
 
@@ -93,7 +94,7 @@ code and source code.
 The following provides more details on the included software that
 may be subject to export controls on cryptographic software:
 
-  The Apache ManifoldCF Plugin for SharePoint 2013
+  The Apache ManifoldCF Plugin for SharePoint 2016
   does not include any implementation or usage of cryptographic software
   at this time.
   
