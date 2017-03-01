@@ -25,7 +25,7 @@ This source MUST be built on a Windows system.
    from C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\UserCode\assemblies.
    There are several places that will work.  The preferred place is:
    
-   C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.SharePoint.dll
+   C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.SharePoint.dll
    
 3. Download the Java SE 7 JDK (Java Development Kit), or greater, from http://www.oracle.com/technetwork/java/index.html.
    You will need the JDK installed, and the %JAVA_HOME%\bin directory included
